@@ -1,12 +1,13 @@
-package academy.devdojo.maratonajava.introducao.Aula04;
+package academy.devdojo.maratonajava.introducao;
 
-import org.graalvm.compiler.lir.stackslotalloc.LSStackSlotAllocator_OptionDescriptors;
-import org.graalvm.compiler.serviceprovider.IsolateUtil;
-
-public class Operadores {
-    // + - / *
-    int numero01 = 10;
-    int numero02 = 20;
-    System.out.println(numero01 - numero02);
+public class Aula04Operadores {
+    public static void main(String[]args) {
+        // + - / *
+        int numero01 = 10;
+        int numero02 = 20;
+        System.out.println(numero01 - numero02);
+    }
 
 }
+
+
